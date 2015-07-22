@@ -1,0 +1,19 @@
+{
+  "name": "KubernetesUI",
+  "version": "1.0.0",
+  "description": "API",
+  "authors": [
+    "David Helms"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.3.15",
+    "restangular": "~1.5.1",
+    "jquery": "~2.1.3",
+    "underscore": "~1.8.3",
+    "json-edit": "~0.2.0",
+    "ng-prettyjson": "~0.1.8",
+    "angular-datepicker": "~1.0.6"
+  }
+}

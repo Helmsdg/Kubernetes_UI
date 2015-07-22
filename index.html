@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Integration Tool</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/ng-prettyjson/dist/ng-prettyjson.min.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/angular-datepicker/app/styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/angular-datepicker/dist/index.min.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/json-edit/css/styles.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/restangular/dist/restangular.min.js"></script>
+    <script src="bower_components/underscore/underscore-min.js"></script>
+    <script src="bower_components/ng-prettyjson/dist/ng-prettyjson.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular-ui-sortable/sortable.min.js"></script>
+    <script src="bower_components/json-edit/js/directives.js"></script>
+
+    <script src="bower_components/angular-datepicker/app/scripts/datePicker.js"></script>
+    <script src="bower_components/angular-datepicker/app/scripts/datePickerUtils.js"></script>
+    <script src="bower_components/angular-datepicker/app/scripts/dateRange.js"></script>
+    <script src="bower_components/angular-datepicker/app/scripts/input.js"></script>
+    <script src="bower_components/angular-datepicker/dist/index.min.js"></script>
+
+    <script src="assets/js/System/Main.js"></script>
+    <script src="assets/js/System/Configuration.js"></script>
+
+    <script src="assets/js/Kubernetes/services/Kubernetes.js"></script>
+    <script src="assets/js/Kubernetes/directives/Kubernetes.js"></script>
+
+
+</head>
+<body ng-app="app">
+
+<authentication></authentication>
+<br/>
+<ng-view></ng-view>
+</body>
+</html>
